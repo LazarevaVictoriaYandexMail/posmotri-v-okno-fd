@@ -94,6 +94,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  overflow-x: hidden;
 }
 
 .content__list-container {
@@ -197,13 +198,15 @@ ol {
 
 .search-form__textfield {
   outline: none;
-  border: 1px 0 1px 0;
-  border-color: #FFFFFF;
+  border: none;
+  border-top: 1px solid #fff; 
+  border-bottom: 1px solid #fff;
   color: #fff;
   background: transparent;
   appearance: none;
   font-weight: 400;
   font-size: 18px;
+
 }
 
 .search-form__textfield::placeholder {
